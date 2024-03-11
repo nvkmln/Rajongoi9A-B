@@ -7,6 +7,20 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <title>I'm Travis... Travis Scott</title>
 </head>
+<style>
+.zoom {
+  padding: 50px;
+  background-color: none;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
 <body>
 <nav class="navbar navbar-expand-sm text-bg-secondary">
     <div class="container-fluid">
@@ -23,5 +37,9 @@
         </ul>
     </div>
 </nav>
+<div class="container-fluid p-5 my-5 bg-dark text-white">
+    <h1>Travis Scott</h1>
+    <p> Travis Scott, avagy </p>
+</div>
 </body>
 </html>
