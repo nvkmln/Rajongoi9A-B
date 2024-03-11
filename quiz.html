@@ -46,6 +46,17 @@
             border-radius: 5px;
             cursor: pointer;
         }
+
+        .travis-img {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .travis-img img {
+            width: 48%;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -95,6 +106,10 @@
             <button type="submit" class="submit-btn">Küldés</button>
         </form>
         <div id="result"></div>
+        <div class="travis-img">
+            <img src="travis_concert.jpg" alt="Travis Scott koncerten">
+            <img src="travis_family.jpg" alt="Travis Scott a családjával">
+        </div>
     </div>
 
     <script>
@@ -127,9 +142,4 @@
                 }
             }
 
-            document.getElementById('result').innerHTML = '<h2>Pontszám: ' + score + '/5</h2>';
-        });
-    </script>
-    <img src="" alt="">
-</body>
-</html>
+            document.getElementById('result').innerHTML = '<h2>Pontszám: ' + score + '/5
