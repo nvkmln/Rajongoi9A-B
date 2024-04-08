@@ -42,7 +42,7 @@
         button:hover {
             background-color: #45a049;
         }
-
+        
     </style>
 </head>
 <body>
@@ -72,8 +72,26 @@
         </div>
     </nav>
 <div class="container">
-    <h1 style="color: #ff4500; text-align: center;">Quiz Travis Scottról</h1>
-    <p;">A Tudás beszippantása után itt tudja elindítani a quizt.</p>
-    <a href="quiz.html"><button class="submit-btn">Quiz indítása</button></a>
-
+    <h1 style="color: #ff4500; text-align: center;">Probléma jelentése</h1>
+    <p>Itt tud jelezni az oldallal kapcsolatos bármilyen észrevételt.</p>
+    <p>Hibák, bugok jelentése:</p>
+    <div>
+        <div>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Név</label>
+              <input type="text" class="form-control" id="name" placeholder="Név">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Üzenet</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Ide írja észrevételét"></textarea>
+            </div>
+          </form>
+        </div>
+    <a href="index.html"><button class="submit-btn">Beküldés</button></a>
+    </div>
 </div>    
