@@ -1,6 +1,9 @@
 body {
     background-color: rgba(33,37,41,255)
+    
+
 }
+
 .navbar-nav .nav-link:hover {
     padding: 5px 5px;
     color: #ff4500 !important;
@@ -74,4 +77,44 @@ body {
     border: none;
     background-color: transparent;
     color: white;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+  }
+
+  .footer-top {
+    padding-bottom: 0px;
+  }
+
+  .footer-links a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .footer-links a:hover {
+    color: #ff4500;
+  }
+
+  .footer-bottom {
+    background-color: #101111;
+    padding-top: 15px;
+    margin-bottom: 0px;
+  }
+
+  .footer-bottom p {
+    margin-bottom: 0px;
+  }
+
+  
+.container_footer {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 2000px;
+    color: white;
+    text-align: center;
+    background-color: #101111;
+
 }
