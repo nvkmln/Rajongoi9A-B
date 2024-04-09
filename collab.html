@@ -17,6 +17,21 @@
         .collaboration h3 {
             color: #ff4500;
         }
+
+        .image-container {
+          position: relative;
+          overflow: hidden;
+        }
+
+        .image-container img {
+          transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        .image-container:hover img {
+          transform: scale(1.1) rotate(5deg);
+          opacity: 0.8;
+        }
+
     </style>
 </head>
 <body>
@@ -51,28 +66,35 @@
             <h3 style="color: #ff4500;">Nike együttműködés</h3>
             <p>A Nike-ral való együttműködésének egyik legismertebb része a Travis Scott x Nike Air Jordan 1 cipőkollekció, amely 2019-ben jelent meg.</p>
             <p>Scott különböző egyedi tervezésű cipőket és ruhákat készített a Nike-nek, amelyek általában gyorsan elkelnek. Az egyik legjelentősebb kiadás a Travis Scott x Nike Air Jordan kollekció, amelyben az ikonikus Air Jordan siluettje újraértelmezésre került Travis Scott sajátos stílusával és esztétikájával. Ezek a kiadások rendszerint egyedi színűek, különleges anyagokat használnak, és különleges részleteket tartalmaznak, amelyek Travis Scott kreatív vízióját tükrözik.</p>
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_shoe03.jpg" alt="nike cipő">
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px; transform: scaleX(-1);" src="kepek/travis_shoe.jpg" alt="nike cipő">
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_shoe02.jpg" alt="nike cipő">
+            <div class="image-container">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_shoe.jpg" alt="nike cipő">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_shoe03.jpg" alt="nike cipő">
+
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_shoe02.jpg" alt="nike cipő">
+            </div>
         </div>
 
-        <div class="container_index">
+        <div class="container_index image">
             <h3 style="color: #ff4500;">Adidas együttműködés</h3>
             <p>Travis Scott 2020-ban jelentette be az együttműködését az Adidas-szal, amely a Travis Scott x Adidas Originals cipőkollekciót eredményezte.</p>
             <p>A kollekcióban különböző stílusú és színű cipők találhatók, amelyek népszerűsége azonnal megnőtt a rajongók körében.
                 Travis Scott együttműködött az Adidas márkával több sneaker kiadás során, melyek rendkívül várt és keresett cipőkollekciókat hoztak létre. A Travis Scott és az Adidas közötti együttműködés kiemelkedik az egyedi tervezéseivel és a korlátozott elérhetőségével, gyakran magas keresletet és továbbértékesítési árakat eredményezve.</p>
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_adidas01.jpg" alt="adidas cipő">
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px; transform: scaleX(-1);" src="kepek/travis_adidas02.jpg" alt="adidas cipő">
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_adidas03.jpg" alt="adidas cipő">
+            <div class="image-container">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_adidas02.jpg" alt="adidas cipő">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_adidas01.jpg" alt="adidas cipő">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/travis_adidas03.jpg" alt="adidas cipő">
+            </div>
         </div>
 
         <div class="container_index">
             <h3 style="color: #ff4500;">Cactus Jack termékek</h3>
             <p>A Cactus Jack merch a Travis Scott által tervezett és kiadott ruházati termékeket és kiegészítőket jelenti.</p>
             <p>A Cactus Jack merch kínálatában gyakran megtalálhatóak ruházati termékek, például pólók, kapucnis pulóverek, nadrágok és dzsekik, valamint kiegészítők, mint például sapkák, hátizsákok és telefon tokok. Ezek a termékek gyakran limitált kiadásúak és gyorsan elfogynak a boltok polcairól, ami tovább növeli azok keresletét és értékét a rajongók körében.</p>
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/shirt01 (1).jpg" alt="póló">
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/shirt02.png" alt="póló">
-            <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/shirt03.png" alt="pulcsi">
+            <div class="image-container">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/shirt01 (1).jpg" alt="póló">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/shirt02.png" alt="póló">
+              <img style="width: 200px; height: auto; margin: 20px; border-radius: 15px;" src="kepek/shirt03.png" alt="pulcsi">
+            </div>
         </div>
     </div>
 
