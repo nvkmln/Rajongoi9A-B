@@ -26,10 +26,8 @@ body {
 
     max-width: 1700px;
     margin: 50px auto;
-    padding: 3px;
-    border-radius: 5px;
+    padding: px;
     margin-bottom: 30px;
-    border: 1px solid #ccc;
     border-radius: 10px;
     color: white;
 }
