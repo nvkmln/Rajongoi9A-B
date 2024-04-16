@@ -5,10 +5,7 @@ body {
 }
 
 .navbar-nav .nav-link:hover {
-    padding: 5px 5px;
     color: #ff4500 !important;
-    font-size: 120%;
-
 }
 
 .container_index {
@@ -114,5 +111,10 @@ footer {
     color: white;
     text-align: center;
     background-color: #101111;
+}
 
+.on{
+  background-color: rgba(33,37,41,255);
+  color:white;
+  border-radius: 10px;
 }
